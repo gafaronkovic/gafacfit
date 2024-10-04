@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAFACFIT Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome za ikone društvenih mreža -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pY7eV0XDJq6VZJ8D+2W4P0Rmd+uHcJQ2AQkPJhJmX1FUdqJ0QTTgN3PbaOQvvyKipCbH5EObo1EMDIs9zA1PRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header Sekcija sa Video Pozadinom -->
+    <header class="header-section">
+        <video autoplay muted loop class="background-video">
+            <source src="videos/background.mp4" type="video/mp4">
+            Vaš preglednik ne podržava video tag.
+        </video>
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1 class="gym-name">GAFACFIT</h1>
+            <p class="tagline">Discover the strength within – Join us and transform yourself.</p>
+        </div>
+    </header>
+
+    <!-- Scrollable Content Sekcija -->
+    <main class="content-section">
+        <!-- Usluge/Programi -->
+        <section class="services">
+            <div class="service-tile" id="courses">
+                <h2>Courses</h2>
+                <div class="service-content">
+                    <p>Explore a variety of fitness courses tailored to your needs.</p>
+                </div>
+                <a href="courses.html" class="learn-more">Learn More</a>
+            </div>
+            <div class="service-tile" id="programs">
+                <h2>Programs</h2>
+                <div class="service-content">
+                    <p>Join our specialized programs designed to help you achieve your goals.</p>
+                </div>
+                <a href="programs.html" class="learn-more">Learn More</a>
+            </div>
+            <div class="service-tile" id="equipment">
+                <h2>Equipment</h2>
+                <div class="service-content">
+                    <p>State-of-the-art equipment to enhance your workout experience.</p>
+                </div>
+                <a href="equipment.html" class="learn-more">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Animated Transition Bar -->
+        <div class="transition-bar"></div>
+
+        <!-- Call-to-Action Sekcija -->
+        <section class="cta-section">
+            <a href="details.html" class="cta-button">Click</a>
+        </section>
+    </main>
+
+    <!-- Footer Sekcija -->
+    <footer class="footer-section">
+        <div class="social-media">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <!-- Dodajte više ikona društvenih mreža po potrebi -->
+        </div>
+        <div class="footer-menu">
+            <nav class="mobile-nav">
+                <input type="checkbox" id="hamburger-toggle">
+                <label for="hamburger-toggle" class="hamburger"><i class="fas fa-bars"></i></label>
+                <div class="mobile-menu">
+                    <a href="index.html">Home</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#programs">Programs</a>
+                    <a href="#equipment">Equipment</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
